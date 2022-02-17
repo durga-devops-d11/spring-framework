@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+  
+  <!-- Dependency Injection  -->
+  
+  <bean id="emp1" class="com.java.Employee">
+  	<property name="employeeId" value="100"/>
+  	<property name="name" value="durga"/>
+  	<property name="email" value="durga@gmail.com"/>
+  </bean>
+  
+   <bean id="emp2" class="com.java.Employee">
+  	<property name="employeeId" value="101"/>
+  	<property name="name" value="durga1"/>
+  	<property name="email" value="durga1@gmail.com"/>
+  </bean>
+  
+    
+   <bean id="emp3" class="com.java.Employee">
+  	<property name="employeeId" value="103"/>
+  	<property name="name" value="durga3"/>
+  	<property name="email" value="durga3@gmail.com"/>
+  </bean>
+  
+   </beans>
